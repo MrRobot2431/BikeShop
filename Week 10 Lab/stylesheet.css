@@ -1,0 +1,311 @@
+/*
+Title: stylesheet
+Use: stylesheet for index page
+Author: Dustin Miller
+School/Term: Southern Illinois University, Spring 2022
+Developed: February 3, 2022
+Tested: February 3, 2022
+*/
+/* code for the index page below */ 
+#title{
+	text-align:center;
+	font-size:3.75em; /* 60 / 16 */
+}
+#fob{
+	text-align:center;
+	font-size:1.875em; /* 30 / 16 */ 
+}
+html{
+	background-color: #ADD8E6; /* This could also be coded as LightBlue */
+	margin: 0 auto; }
+h1, h2{
+	padding: 10px 1.0416%; } /* 10 / 960 * 100 */
+p{
+	padding-left: 5px 0.5208%; /* 5 / 960 * 100 */
+	padding-right: 5px 0.5208%; } /* 5 / 960 * 100 */
+#body{
+	width: 100%;
+	max-width:900px;
+	margin: 0 auto;
+	height: 100%;}			
+li{							
+	padding-left: 10px 1.0416%; } /* 10 / 960 * 100 */	
+
+#image1{ /* code for the main photo before you hover over and it changes */ 
+	width:720px; /* controls size of border or image container */ 
+	height:500px; /* controls size of border or image container */
+	max-width:100%; /* This makes the image scalable */
+	background-image: url("bikes-on-sale.png");
+	background-repeat: no-repeat; /*stops image from repeating over and over */
+	background-size:100%; /* This makes the image scalable */
+	border: 3px solid blue; 
+	border-radius: 30px;
+}
+#image1:hover{ /* code for second image after you hover and image rolls over */ 
+	background-image:url("rollover.png");
+}	
+figcaption{ /* code for the figure caption below */
+	font-size:1.875em; /* 30 / 16 */ 
+	display:block;
+	font-weight:bold;
+	padding-top:.25em;
+	margin-bottom:1em;
+	border-bottom:1px solid black;
+}
+/* Below is the code for the rentals page */
+#header{
+	text-align:center;
+	font-size:1.875em; } /* 30 / 16 */
+.body{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+	height: 14rem; /* adjusts the height of the border */ 
+	}
+.rentals{
+	background-color: LightGreen; /* can aslo be written as #90EE90 */
+	margin: 0 auto;
+	padding: 0;
+}
+#h2{
+	font-size: 1.875em; /* 30 / 16 */
+	padding: 1em;
+	text-align: center;
+}
+main{
+	width: 49%;
+	float: left;
+	border-right: 2px solid black;
+	height: 33rem; /*adjusts the length of the border */ 
+}
+aside{
+	width: 49%; 
+	float: right;
+}
+#p1{
+	text-align: center;
+}
+#p2{
+	text-align: center;
+}
+footer{
+	text-align:center;
+	padding:1rem;
+	position: relative;
+	clear: both;
+}
+/* Below is the code for the sales page */ 
+#head{
+	text-align:center;
+	font-size:1.875em; } /* 30 / 16 */
+}
+#body{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	}
+.sales{
+	background-color: mediumpurple; /* can aslo be written as #9370db */
+}
+#head2{
+	font-size: 1.875em; /* 30 / 16 */
+	padding: 1em;
+	text-align: center;
+}
+#main{
+	width: 49%;
+	float: left;
+	border-right: 2px solid black;
+	height: 60rem; /*adjusts the length of the border */ 
+}
+#aside{
+	width: 49%;
+	float: right;
+}
+#par1{
+	text-align: center;
+}
+#par2{
+	text-align: center;
+}
+#vid{
+	width:100%; /* controls size of video */ 
+	height:400px; /* controls size video */
+	max-width:100%; /* This makes the video scalable */
+}
+/* below is my code for services page and table */ 
+#header1{
+	text-align:center;
+	font-size:3.75em;  /* 60 / 16 */
+}
+.work{ /* code for body */ 
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.services{
+	background-color:orange; /* could also be written as #FFA500 */
+}
+#caption{ /* code for the figure caption */
+	border:none;
+	display:block;
+	text-align:center;
+	font-size:1.875em; /* 30 / 16 */
+	font-weight:bold;
+}
+table{ /* code for the main table */
+	width:100%;
+	max-width:900;
+	border: 2px solid black; /* could also be written as #000000 */ 
+	border-collapse:collapse;
+	margin:10px auto;
+}
+#ntable{ /* code for the nested tables */
+	white-space:nowrap;
+	border-collapse:collapse;
+	border:2px solid black; /* could also be written as #000000 */ 
+}
+th, td{
+	border:2px solid black; /* could also be written as #000000 */
+	padding: .2em .7em;
+	text-align:left;
+}
+thead, tfoot{
+	background-color:grey; /* could also be written as 	#808080 */ 
+	font-weight:bold;
+}
+#mainth{
+	font-size:1.3em /* 20.8 / 16 */
+}
+/* Below is the code for the Contact page */
+#he{
+	text-align:center;
+	font-size:3.75em;  /* 60 / 16 */
+	font-weight:bold;
+}
+.main{ /* code for body */ 
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding:1.5em;
+}
+.Contact{ /* code for whole page */ 
+	background-color:red; /* could also be written as #ff0000 */
+}
+#contact_form{ /* code for the contact form */ 
+	text-align:center;
+	padding:1.5em;
+	max-width:845px;
+	font-size:1.2em;
+	font:90% arial, helvetica, sans-serif;
+	margin:20px;
+}
+#message{ /* code for the message space */ 
+	height:10em;
+	width:100%;
+	max-width:52em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+label{ 
+	width:8em;
+	font-weight:bold;
+}
+input{
+	margin-left:1em;
+	margin-bottom:.5em;
+	width:11em;
+}
+legend{ /* code for the fieldset legends or labels */ 
+	font-weight:bold;
+	font-size:1.5em;
+}
+input:focus{ /* makes focus on box you are filling out or have selected */ 
+	border:2px solid black;
+}
+#inp{
+	text-align:left;
+	font-weight:bold;
+}
+fieldset{
+	margin-top:1em;
+	margin-bottom:1em;
+	padding-top:.5em;
+}
+br{
+	clear:both;
+}
+
+/* Below is my code for my navigation menu */ 
+#nav_menu ul { 
+	list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+	text-align: center; 
+	display: block;
+	width:160px;
+	padding: 1 em 0; /* padding above and below a elements */
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-right: 2px solid white; }
+#mobile_menu { 
+	display: none;
+}
+
+/* below is my code for media queries */ 
+@media all and (max-width: 850px){ /* mobile landscape to tablet portrait */
+	#nav_menu{
+		display:none; /*doesn't display the regular nav menu */
+	}
+	#mobile_menu { 	/* displays the slicknav menu */
+		float:right;
+		display: inline-block;
+		background-color: solid black !important;
+	}
+	main{
+		height: 50rem; /*adjusts the height of the border */
+	}
+	.body{
+		height: 15rem; /* adjusts the height of the border */
+	}
+@media only screen and (max-width: 620px) { /* makes service page responsive for smaller screens */
+	th, td{
+		display:block;
+	}
+	thead{ /* removes main services header */
+		display:none;
+	}
+	#mainser{ /* makes the list of services the header */
+		font-size:1.3em;
+		background-color:grey;
+		font-weight:bold;
+	}
+	#sideser{
+		text-align:right;
+	}
+@media only screen and (max-width: 615px) and (min-width: 460px) { /* make contant page responsive for smaller screens */
+	.field{
+		float:left;
+		width:42%;
+		display:inline-block;
+	}
+	.field2{
+		float:right;
+		width:42%;
+		display:inline-block;
+	}
+	.field3{							/* I made sure all of the fieldsets would float next to each other while in those specific screen dimensions */ 
+		float:left;
+		width:42%;
+		display:inline-block;
+	}
+	.field4{
+		float:right;
+		width:42%;
+		display:inline-block;	
+	}
+	input{
+		width:5em;
+	}

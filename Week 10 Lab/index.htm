@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+Title: Miller Basic Web Page
+Use: For exercises throughout the course
+Author: Dustin Miller
+School/Term: Southern Illinois University, Spring 2022
+Developed: January 22, 2022
+Tested: January 23, 2022
+-->
+
+<html lang="en-US">
+	<head>
+		<title>Miller's Bicycles Homepage</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="slicknav.css"> <!-- link to slicknav !-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="jquery.slicknav.min.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Homepage to Miller's Bicycles">
+		<meta name="keywords" content="Family, Bussiness, Bikes, Sale, Braxton, Massachusetts">
+		<link rel="shortcut icon" href="favicon.ico"> <!-- code for M favicon !-->
+		<!-- slicknav code below !-->
+        <script type= "text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({
+				prependTo:"#mobile_menu",
+				label: "MENU"});
+		});
+        </script>
+	</head>
+	<body id="body">
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				<li><a href="index.htm">Home</a></li>
+				<li><a href="rentals.htm">Rentals</a></li>
+				<li><a href="sales.htm">Sales</a></li>
+				<li><a href="services.htm">Services</a></li>
+				<li><a href="contact.htm">Contact</a></li>
+			</ul>
+		</nav>
+		<center> 
+		<h1 id="title">Miller's Bicycles</h1>
+		<h2 id="fob">Family Owned Bussiness Since 2017</h2>
+			<!-- Short description of the shop and future deals -->
+		<p>Here at Miller's Bicycles we only sell the highest quality of bikes and protective gear availble. 
+		Hi, my name is Dustin Miller, and ever since my family bought this place and turned it into a bike shop almost 5 years ago, we have dedicated ourselves to providing customers with the best of the best and making sure they leave our store completely satisfied. 
+		Throughout the years we have had a great time satisfying our customers, so with this we would like to show our appricitaion by announcing our 5 year store anniversary! It will be coming up on 2/25/22 and with it will be some</font><font size="5"><strong> big savings!</strong></font> 
+		<font>So make sure you come on by and pick up your new bike for up to</font><font size="5"><strong> 50% off!</font></strong>
+		</p>
+		<audio autoplay loop> <!-- code for looped audio !-->
+			<source src="bikebell.mp3" type="audio/mpeg">
+		</audio>
+		<!-- uploading image with dimensions -->
+		<figure>
+			<p id="image1"></p> <!-- used for the image rollover !-->
+			<figcaption>Our Biggest Sale Yet!</figcaption> <!-- caption to image on index page !-->
+		</figure>
+		<strong><font size="5">
+			<!-- below is a ordered list of the top bike brands we sell -->
+		<p>Shop from the top brands such as 
+			<ol>
+				<li>Trek</li> 
+				<li>Santa Cruz</li>
+				<li>GT</li>
+				<li>Canyon</li>
+				<li>Diamondback</li>
+				...and many more!
+			</ol>
+		</strong></font>
+		</p>
+			<!-- location and contact information -->
+		<p>2424 N McCord St.</p>
+		<p>Braxton, Massachusetts - 20342</p>
+		<p>Phone:875-921-384</p>
+		<a href="https://siu.edu/">SIU.edu</a>
+
+		</center>
+	
+	</body>
+	
+</html>
