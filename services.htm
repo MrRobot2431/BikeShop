@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--
+Title: Services Page
+Use: Providing information on bicycle services I offer in my shop
+Author: Dustin Miller
+School/Term: Southern Illinois University, Spring 2022
+Developed: March 17, 2022
+Tested: March 18, 2022
+-->
+
+<html class="services" lang="en-US">
+<head>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="slicknav.css"> <!-- link to slicknav !-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="jquery.slicknav.min.js"></script>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico"> <!-- code for M favicon !-->
+	<!-- slicknav code below !-->
+    <script type= "text/javascript">
+	$(document).ready(function(){
+		$('#nav_menu').slicknav({
+			prependTo:"#mobile_menu",
+			label: "MENU"});
+	});
+    </script>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Services page to Miller's Bicycles">
+	<meta name="keywords" content="Services, Repairs, Bikes, Adjustments, Replacements, Checks, Cost, Time">
+    <title>Services</title>
+</head>
+<body class="work">
+	<nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="index.htm">Home</a></li>
+			<li><a href="rentals.htm">Rentals</a></li>
+			<li><a href="sales.htm">Sales</a></li> <!-- code for navigation menu -->
+			<li><a href="services.htm">Services</a></li>
+			<li><a href="contact.htm">Contact</a></li>
+		</ul>
+	</nav>
+	<h1 id="header1">Services</h1>
+<figure>
+	<figcaption id="caption">Our Services!</figcaption>
+	<table>
+		<thead>
+			<tr>
+				<th id="mainth">Service</th>
+				<th id="mainth">Description</th> <!-- code for the main headers -->
+				<th id="mainth">Cost</th>
+				<th id="mainth">Turnaround Time</th>
+			</tr>		
+		</thead>
+		<tbody> <!-- below is all of the code for the services, description, price, and turnaround time -->
+			<tr>
+				<td id="mainser">Safety Checks</td>
+				<td id="sideser">We will check the overall integrity of the bike</td>
+				<td id="sideser">Free!</td>
+				<td id="sideser">10 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Brake Adjustments</td>
+				<td id="sideser">We will make sure breaks are working perfectly</td>
+				<td id="sideser">$25</td>
+				<td id="sideser">15 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Clean up and Lube</td>
+				<td id="sideser">We make sure bike parts are properly cleaned and lubricated</td>
+				<td id="sideser">$60</td>
+				<td id="sideser">15 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Tire Repair</td>
+				<td id="sideser">We make tires have no damage and are fully functional</td>
+				<td id="sideser">$60</td>
+				<td id="sideser">20 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Seat and Handlebar Adjustments</td>
+				<td id="sideser">We make sure your seat and handlebars are stable</td>
+				<td id="sideser">$20</td>
+				<td id="sideser">15 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Cable Replacement</td>
+				<td id="sideser">We replace any damaged or worn cables</td>
+				<td id="sideser">$30</td>
+				<td id="sideser">20 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Parts Replacement</td>
+				<td id="sideser">We replace any extra parts that are damaged or worn</td>
+				<td>
+					<table id="ntable"> <!-- code for the nested table -->
+						<tr>
+							<th id="sideser">Lowest</th>
+							<td id="sideser">$15</td>
+						</tr>
+						<tr>
+							<th id="sideser">Highest</th>
+							<td id="sideser">$60</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table id="ntable"> <!-- code for the nested table -->
+						<tr>
+							<th id="sideser">Shortest</th>
+							<td id="sideser">15 Minutes</td>
+						</tr>
+						<tr>
+							<th id="sideser">Longest</th>
+							<td id="sideser">40 Minutes</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td id="mainser">Repair Bike Chain</td>
+				<td id="sideser">We repair bike chains with any damage</td>
+				<td id="sideser">$30</td>
+				<td id="sideser">10 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Calibrate Gears</td>
+				<td id="sideser">We perfectly calibrate the bicycles gears</td>
+				<td id="sideser">$20</td>
+				<td id="sideser">15 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Adjust Wheel Hubs</td>
+				<td id="sideser">We make sure wheel hubs are on perfectly</td>
+				<td id="sideser">$20</td>
+				<td id="sideser">15 Minutes</td>
+			</tr>
+			<tr>
+				<td id="mainser">Other Miscellaneous Repairs</td>
+				<td id="sideser">We repair any other parts that are damaged or worn</td>
+				<td>
+					<table id="ntable"> <!-- code for the nested table -->
+						<tr>
+							<th id="sideser">Lowest</th>
+							<td id="sideser">$15</td>
+						</tr>
+						<tr>
+							<th id="sideser">Highest</th>
+							<td id="sideser">$60</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table id="ntable"> <!-- code for the nested table -->
+						<tr>
+							<th id="sideser">Shortest</th>
+							<td id="sideser">15 Minutes</td>
+						</tr>
+						<tr>
+							<th id="sideser">Longest</th>
+							<td id="sideser">40 Minutes</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+		<tfoot> <!-- code for the footer with contact information -->
+			<tr>
+				<th id="mainth">Contact</th>
+				<th id="mainth" colspan="3">2424 N McCord St. Braxton, Massachusetts - 20342 Phone:875-921-384</th>
+			</tr>
+		</tfoot>
+	</table>
+</figure>
+</body>
+</html>
